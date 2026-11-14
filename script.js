@@ -3,7 +3,7 @@ const listStatus = document.querySelector("#list-status");
 
 function formatDate(dateString) {
   return new Intl.DateTimeFormat(undefined, {
-    year: "numeric",
+    year: "numeri",
     month: "long",
     day: "numeric"
   }).format(new Date(`${dateString}T00:00:00`));
